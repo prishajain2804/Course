@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import CourseGoalList from "./components/CourseGoalList";
 import CourseInput from "./components/CourseInput";
-
 function App() {
   const [courseGoals, setCourseGoals] = useState([
     {
